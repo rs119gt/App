@@ -1,0 +1,75 @@
+
+html, body {
+    margin:15;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    background-color: #EEF0F4;
+    user-select: none;
+
+    
+}
+.main{
+    border:5px solid rgb(163, 65, 65);
+    border-radius:15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:600px;
+    height:600px;
+}
+#img_main{
+border:5px solid rgb(163, 65, 65);
+border-radius: 50%;
+margin-top:60px;
+}
+input {
+    
+    color:  rgb(163, 65, 65);
+    background-color: #e8e6ec9f;
+    border: solid #EEF0F4;
+    border-radius:10px;
+    height:50px;
+    width:250px ;
+    padding:10px 5px;
+    margin-top:30px;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+
+button {
+    
+    color: #FDFDFD;
+    background-color: rgb(163, 65, 65);
+    margin-top:30px;
+    height:50px;
+    width:250px ;
+    border: solid #EEF0F4;
+    border-radius:10px;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+#shopping-list li{
+    background-color:white;
+    border-radius: 15px;
+    height:25px;
+    width:80px;
+    text-align: center;
+    padding:14px 18px;
+    font-size: large;
+    list-style-type: none;
+    box-shadow:0px 1px 5px  #d3d6d8;
+    color:  rgb(163, 65, 65);
+
+}
+#shopping-list{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+}
